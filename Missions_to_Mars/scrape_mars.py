@@ -96,7 +96,7 @@ def scrape():
         browser.quit()
         
         #All scraped data
-        Mars_data={
+        mars_data={
             'News_Title':News_Title,
             'News_Paragraph':News_Paragraph,
             'JPL_Image':image_url,
@@ -105,7 +105,7 @@ def scrape():
         }
         
         #Return results
-        return Mars_data
+        return mars_data
             
         
 
